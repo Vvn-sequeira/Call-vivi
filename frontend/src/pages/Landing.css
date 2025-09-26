@@ -1,0 +1,50 @@
+
+.body{
+    height: 100vh ;
+
+     /* background: linear-gradient( #00053D 50% , white); */
+     background: linear-gradient(to bottom,
+    #00053D 0%,
+    #343c99 60%,
+    #6b6b9f 75%,
+    #aab2d5 90%,
+    white 100%
+  );
+
+
+}
+
+.mid-screen-display{
+     display: none;
+}
+
+       .Hero-heading-for-small-screen{
+        font-size: 3rem  ;
+    }
+
+@media (min-width: 745px  ) and (max-width : 1220px) {
+    .mid-screen-none {
+        display: none  ;
+    }
+    .mid-screen-display {
+        font-size: 12px ;
+    }
+    .Hero-heading-for-small-screen{
+        font-size: 2.5rem  ;
+    }
+}
+@media  (min-width : 100px ) and  (max-width : 745px) {
+      .mid-screen-none {
+        display: none  ;
+    }
+    .small-screen-none{
+         display: none;
+    }
+      .mid-screen-display {
+        display: block  ;
+    }
+      .Hero-heading-for-small-screen{
+        font-size: 2.0rem;
+        line-height: 700px ;
+    }
+}
