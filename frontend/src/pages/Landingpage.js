@@ -13,7 +13,9 @@ export default function Landingpage() {
   return (
     <div className='body'>
     <Navbar></Navbar>  
-    <Hero></Hero>
+    <div className='hero-section ' style={{paddingTop: "124px"}}>
+       <Hero></Hero>
+    </div>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Route , BrowserRouter as Router,Routes} from 'react-router-dom';
 import Landingpage from './pages/Landingpage';
+import Signup from './pages/Landing/Signup';
 function App() {
   return (
     <> 
@@ -9,6 +10,7 @@ function App() {
       
          <Routes>
               <Route path='/' element={<Landingpage/>}></Route>
+              <Route path='/signup' element={<Signup/>}></Route>
              
          </Routes>
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -69,9 +70,9 @@ export default function Navbar() {
           <button className="btn btn-light  mid-screen-none ">
             Contact Sales{" "}
           </button>
-          <button className="btn btn-primary small-screen-none">
-            Sign Up Free
-          </button>
+          <Link to="/signup">
+            <button className="btn btn-primary Signup-btn">SignUp</button>
+          </Link>
           <i class="fa-solid fa-box mid-screen-display"></i>
         </div>
       </div>
