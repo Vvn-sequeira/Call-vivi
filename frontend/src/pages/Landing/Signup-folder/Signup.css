@@ -1,0 +1,107 @@
+
+
+
+.custom-card{
+    width: fit-content;
+    border: 1px solid lightgrey;
+    border-radius: 19px;
+    padding: 30px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top:20px;
+    background-color:white;
+    box-shadow: 12px 12px 22px -6px rgba(0, 0, 0, 0.3);
+}
+.custom-card ul{
+     padding-left: 0px ;
+}
+
+
+.custom-Form{
+    color: white;
+    width: 500px;
+    margin-top:20px;
+    border-radius: 39px ;
+    background-color: rgba(255, 255, 255, 0.142);
+    padding: 40px ;
+
+}
+.form-text{
+     color: rgb(0, 0, 0) ;
+}
+
+.custome-card-and-img-for-big-screen{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.custom-form-for-big-screen{
+    margin-top: 50px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.custome-card-and-img-for-small-screen{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-form-for-small-screen{
+
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (min-width: 1194px ) {
+    .non-divided-for-mobile-page {
+        display: none;
+    }
+    
+}
+@media  (min-width: 0px )  and (max-width: 527px ) {
+  
+     .custom-Form{
+        width: 400px;
+     }
+
+     .custom-card ul li {
+        font-size: 10px;
+     } 
+     .card-img{
+        
+         padding-bottom: 0px !important;
+         padding-left: 20% !important;
+     }
+}
+@media  (min-width: 0px )  and (max-width: 390px ) {
+  
+     .custom-Form{
+        width: 350px;
+     }
+
+}
+
+@media (max-width: 1193px ) and (min-width: 0px ) {
+    .divided-for-signup-page {
+        display: none;
+    }
+    .non-divided-for-mobile-page {
+        display: block;
+    }
+    
+}

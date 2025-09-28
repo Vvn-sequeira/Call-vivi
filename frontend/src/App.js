@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Route , BrowserRouter as Router,Routes} from 'react-router-dom';
 import Landingpage from './pages/Landingpage';
-import Signup from './pages/Landing/Signup';
+import Signup from "./pages/Landing/Signup-folder/Signup"
 function App() {
   return (
     <> 

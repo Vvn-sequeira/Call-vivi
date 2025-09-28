@@ -9,7 +9,7 @@ export default function Navbar() {
           className="flex flex-row gap-4 items-center pointer "
           style={{ cursor: "pointer" }}
         >
-          <h1>Zoom</h1>
+          <Link to={"/"} className=" text-decoration-none  ">  <h1>Zoom</h1> </Link>
           <div className="flex flex-row items-center mid-screen-none ">
             <h6>Products</h6>
             <i
