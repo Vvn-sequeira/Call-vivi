@@ -7,15 +7,18 @@ import crypto from "crypto"
 
 const login = async (req , res)=> {
      const {username , password } = req.body 
-
+     console.log(req.body)
      if(!username || !password){
+        console.log("please provide correct info")
          return res.status(400),json({message : "Please provide correct Info "})
      }
      console.log("datas are recived")
      try{
+             console.log("entred try block")
          const user = await User.findOne({username})
          if(!user){
-            return res.status(httpStatus.NOT_FOUND).json({message : "User not found! "})
+                console.log("user not found")
+            return res.status(500).json({message : "User not found! "})
          }
          console.log("data is present")
 
@@ -26,23 +29,30 @@ const login = async (req , res)=> {
 
              user.token = token ; // update the User data with Token field 
              await user.save() ; // then save the data to the database 
+                console.log("datas are valid ")
              return res.status(httpStatus.OK).json({token : token })
-
+        
+         }
+         else if(!isValid){
+                return res.status(401).json({message : "Invalid Credentials "})
          } 
-         console.log("datas are valid ")
+         
+         
      }catch(e){
-         return res.status(500).json({message : `something went wrong ${e}`})
+         return res.status(500).json({message : `Check your credentials again `})
      }
 }
 
 const register = async ( req , res)=> {
      
     const {name , username , password } = req.body;
-
+    console.log(req.body);
     try{
          const exist = await User.findOne({username})
          if(exist){
+             console.log("user already exists")
              return res.status(httpStatus.FOUND).json({message: "User already exists Please Log in "})
+            
          }
 
 

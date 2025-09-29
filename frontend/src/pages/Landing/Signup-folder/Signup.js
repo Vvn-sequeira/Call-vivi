@@ -1,9 +1,11 @@
 import React from "react";
 import Navbar from "../../Navbar";
+
 import "./Signup.css";
 import SignupFolder from "./SignupFolder";
 import CardandImg from "./CardandImg";
 export default function Signup() {
+   
   return (
     <>
       <div className="body">

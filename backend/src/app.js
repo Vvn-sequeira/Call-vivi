@@ -12,7 +12,10 @@ import userRoutes from "./routes/users.routes.js"
 
 import cors from "cors";
 const app = express() ;
-app.use(cors());
+app.use(cors({
+    origin: process.env.FRONTEND_LINK,
+    credentials: true,
+}));
 app.use(express.json({limit : "40kb"}))
 app.use(express.urlencoded({limit: "40kb" , extended : true}));
 

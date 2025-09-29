@@ -1,0 +1,116 @@
+.Loginpageimg{
+    width: 700px;
+    height: 100%;
+    object-fit: cover;
+}
+.Loginimgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginIMG-display-none{
+    margin-top: 30px ;
+}
+@media (min-width : 1113px) and (max-width: 2000px ){
+     .Loginpageimg{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+
+}
+.both-img-and-form-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+}
+
+@media (min-width : 0px) and (max-width: 1113px) {
+   .Loginpageimg{
+    display: none !important;
+   }
+   .center-Loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.both-img-and-form-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 130px ;
+}
+}
+
+.Loginformdiv{
+    width: 500px ;
+    color: white ;
+
+}
+.form-text{
+     color: rgb(23, 190, 23) !important;
+}
+
+.logos{
+    
+     border: 2px solid white ;
+     border-radius: 12px  ;
+     margin-left: 7px !important;
+     padding: 6px ;
+     display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+.logos:hover{
+      background-color: rgba(255, 255, 255, 0.896);
+      color: black !important;
+      cursor: pointer;
+}
+.LoginOptionDiv{
+    width: 500px ;
+
+}
+
+@media (min-width : 0px) and (max-width: 552px) {
+.logos{
+   font-size: 12px !important;
+}
+.divider{
+    display: none !important;
+}
+.Loginformdiv{
+    width: 350px ;
+}
+.LoginOptionDiv{
+    width: 300px ;
+}
+.both-img-and-form-holder{
+    margin-top: 46px ;
+}
+}
+
+.center-Loginform{
+ margin-left: 0px !important   ;
+
+}
+.row{
+        --bs-gutter-x: -2.5rem;
+}
+.both-img-and-form-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.both-img-and-form-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px ; 
+}

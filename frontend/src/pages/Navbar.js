@@ -65,7 +65,7 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <h6 className=" mid-screen-none">Sign In</h6>
+          <Link to={"/Login"} className="text-decoration-none text-white "><h6 className=" mid-screen-none">Log In</h6></Link>
           <h6 className=" mid-screen-none">Support</h6>
           <button className="btn btn-light  mid-screen-none ">
             Contact Sales{" "}
