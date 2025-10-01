@@ -44,24 +44,24 @@ export default function SignupFolder() {
             <h2 className='text-center mb-4'>Sign Up</h2>
              <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label">Enter your Full Name</label>
-                <input onChange={onChangee} name='name' value={formData.name} type="text" className="form-control "  id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                <input required onChange={onChangee} name='name' value={formData.name} type="text" className="form-control "  id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 <div id="emailHelp" className="form-text">Use Capital letters </div>
              </div>
              <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label">Username</label>
-                <input onChange={onChangee} name='username' value={formData.username} type="text" className="form-control "  id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                <input required onChange={onChangee} name='username' value={formData.username} type="text" className="form-control "  id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 <div id="emailHelp" className="form-text">Enter Unique username </div>
              </div>
              {/*                                 Phone Number                                     */}
              <div className="mb-3">
                 <label htmlFor="Phoneinputfield" className="form-label">Phone Number</label>
-                <input onChange={onChangee} name='phone' value={formData.phone} type="Number" className="form-control "  id="Phoneinputfield" aria-describedby="Phone"/>
+                <input required onChange={onChangee} name='phone' value={formData.phone} type="Number" className="form-control "  id="Phoneinputfield" aria-describedby="Phone"/>
                 <div id="Phone" className="form-text">We'll never share your Phone Number with anyone else.</div>
              </div>
             {/*                                 Phone Number                                     */}
                <div className="mb-3">
                 <label htmlFor="Password" className="form-label">Enter your Password</label>
-                <input onChange={onChangee} name='password' value={formData.password} type="password" className="form-control "  id="Password" aria-describedby="password"/>
+                <input required onChange={onChangee} name='password' value={formData.password} type="password" className="form-control "  id="Password" aria-describedby="password"/>
                 <div id="password" className="form-text">Use UpperCase/digits/specialChar.</div>
              </div>
              <div className='mb-3'>

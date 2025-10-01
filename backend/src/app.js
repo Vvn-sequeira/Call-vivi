@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config();
-
+import cookieParser  from "cookie-parser";
+import jwt from "jsonwebtoken"
 import express from "express";
 import {createServer} from "node:http";
 
@@ -12,6 +13,7 @@ import userRoutes from "./routes/users.routes.js"
 
 import cors from "cors";
 const app = express() ;
+app.use(cookieParser());
 app.use(cors({
     origin: process.env.FRONTEND_LINK,
     credentials: true,
