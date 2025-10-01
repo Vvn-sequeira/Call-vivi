@@ -6,6 +6,7 @@ import { Route , BrowserRouter as Router,Routes} from 'react-router-dom';
 import Landingpage from './pages/Landingpage';
 import Signup from "./pages/Landing/Signup-folder/Signup"
 import SignIn from './pages/Landing/Login Folder/SignIn';
+import VideoMeet from './pages/Landing/VideoMeet';
 function App() {
   return (
     <> 
@@ -17,7 +18,7 @@ function App() {
               <Route path='/' element={<Landingpage/>}></Route>
               <Route path='/signup' element={<Signup/>}></Route>
               <Route path='/Login' element={<SignIn/>}></Route>
-
+              <Route path='/:url' element={<VideoMeet></VideoMeet>}></Route>
              
          </Routes>
 
