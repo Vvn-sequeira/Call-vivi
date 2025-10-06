@@ -19,6 +19,8 @@ export const connectTosocket = (server) => {
   // a Socket.IO server setup that listens for client connections and handles real-time events
   io.on("connection", (socket) => {
 
+    console.log("socket connected ")
+
     socket.on("join-call", (path) => {
       /* 
            connections =
