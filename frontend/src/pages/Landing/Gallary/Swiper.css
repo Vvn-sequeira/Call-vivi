@@ -1,0 +1,22 @@
+
+
+.SwiperCard img {
+     height: 400px ;
+     width: 300px ;
+     z-index: 1000;
+     transition: transform 0.4s ease, box-shadow 0.4s ease;
+  will-change: transform, box-shadow;
+}
+.SwiperCard img:hover {
+  transform: translate(0, -40px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.SwiperCard {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+
+}

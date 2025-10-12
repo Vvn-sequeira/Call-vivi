@@ -8,6 +8,9 @@ import Rating from '../pages/Landing/Rating'
 import Start from '../pages/Landing/Start'
 import Scroll from '../pages/Landing/Scroll'
 import Qutoes from '../pages/Landing/Quotes'
+import Swiperr from './Landing/Gallary/Swiperr';
+import ThreeCard from './Landing/ThreeCards/ThreeCard';
+import AfterThreeCard from './AfterThreeCard';
 import "./Landing.css"
 export default function Landingpage() {
   return (
@@ -16,6 +19,15 @@ export default function Landingpage() {
     <div className='hero-section ' style={{paddingTop: "124px"}}>
        <Hero></Hero>
     </div>
+     <div className='Swiper-section'>
+       <Swiperr></Swiperr>
+     </div>
+     <div className='threecard-section'>
+      <ThreeCard></ThreeCard>
+     </div>
+     <div>
+      <AfterThreeCard></AfterThreeCard>
+     </div>
     </div>
   )
 }

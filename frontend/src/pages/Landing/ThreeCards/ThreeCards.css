@@ -1,0 +1,60 @@
+
+.CardContainer{
+     display: flex;
+
+}
+
+.threeCardContainer{
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.ThreeCardss-img{
+     height: 400px ;
+     width: 400px ;
+     margin: 12px ;
+
+}
+
+.ThreeCardss-content{
+     margin-top: 50px ;
+      padding: 0 23px ;
+}
+.ThreeCardss-text{
+     font-size: 18px ;
+     font-weight: 700;
+    
+}
+
+@media (max-width: 1403px) and (min-width:955px  ) {
+    .ThreeCardss-img{
+     height: 300px ;
+     width: 300px ;
+     margin: 12px ;
+
+}
+}
+@media (max-width: 995px) and (min-width: 759px  ) {
+    .ThreeCardss-img{
+     height: 300px ;
+     width: 300px ;
+     margin: 12px ;
+
+}
+
+}
+@media (max-width: 425px) and (min-width: 200px  ) {
+    .ThreeCardss-img{
+     height: 300px ;
+     width: 300px ;
+     margin: 12px ;
+    
+}
+.ThreeCardss-btn{
+     width: 100%;
+     margin-bottom: 12px ;
+}
+}
