@@ -101,3 +101,10 @@
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+.selected-filter{
+   border: 1px solid #00053d;
+   background-color:  #f3f8ff;
+   padding: 12px ;
+   border-radius: .75rem ;
+}

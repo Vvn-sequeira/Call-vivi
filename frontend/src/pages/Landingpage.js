@@ -12,6 +12,7 @@ import Swiperr from './Landing/Gallary/Swiperr';
 import ThreeCard from './Landing/ThreeCards/ThreeCard';
 import AfterThreeCard from './AfterThreeCard';
 import Filters from './Landing/Filters/Filters';
+import AI from './Landing/AI/AI';
 import "./Landing.css"
 export default function Landingpage() {
   return (
@@ -31,6 +32,9 @@ export default function Landingpage() {
      </div>
      <div className='filter-section'>
       <Filters></Filters>
+     </div>
+     <div className='AI-section'>
+      <AI></AI>
      </div>
     </div>
   )

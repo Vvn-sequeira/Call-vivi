@@ -85,11 +85,12 @@ export default function Filters() {
   };
 
 
-
   const [choose, setChose] = useState(0);
+  const [selected , setSelected] = useState(0);
 
   const SelectChoice = (e) => {
     setChose(e.target.value);
+    setSelected(e.target.value);
   };
 
   function renderContent(choosee) {
@@ -148,19 +149,19 @@ export default function Filters() {
   return (
     <div>
       <div className="filterBar row row-cols-2 row-cols-lg-auto g-3  ">
-        <button className="btn col-xml-5 " value={0} onClick={SelectChoice}>
+        <button className={selected == 0 ? " col-xml-5 selected-filter " : "btn col-xml-5 "} value={0} onClick={SelectChoice}>
           Collaboration
         </button>
-        <button className="btn col" value={1} onClick={SelectChoice}>
+        <button className={selected == 1 ? " col-xml-5 selected-filter " : "btn col-xml-5 "} value={1} onClick={SelectChoice}>
           Customer support
         </button>
-        <button className="btn col" value={2} onClick={SelectChoice}>
+        <button className={selected == 2 ? " col-xml-5 selected-filter " : "btn col-xml-5 "} value={2} onClick={SelectChoice}>
           Marketing
         </button>
-        <button className="btn col" value={3} onClick={SelectChoice}>
-          Sales
+        <button className={selected == 3 ? " col-xml-5 selected-filter " : "btn col-xml-5 "} value={3} onClick={SelectChoice}>
+          Sales 
         </button>
-        <button className="btn col " id="Lastbtn" value={4} onClick={SelectChoice}>
+        <button className={selected == 4 ? " col-xml-5 selected-filter " : "btn col-xml-5 "} id="Lastbtn" value={4} onClick={SelectChoice}>
           Employee engagement
         </button>
       </div>

@@ -1,0 +1,60 @@
+
+.TopText{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+}
+.Container-TopText{
+     width: 902px ;
+     height: 369px ;
+     color: white ;
+
+}
+.TopText-heading{
+     font-size: 4rem  ;
+}
+h3{
+   background: linear-gradient(91.35deg, #8d5df7, #6cb0ff 25%, #1722f6),  linear-gradient(270deg, #fff, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Happy Face Semi Bold, Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, sans-serif;
+    font-size: var(--desktop-headline-xxl-font-size, 3.38rem);
+    height: 4.5rem;
+    letter-spacing: var(--desktop-headline-xxl-letter-spacing, -.01em);
+    line-height: var(--desktop-headline-xxl-line-height, 112%);
+    text-align: center;
+    width: 56.38rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+
+}
+.TopText-para{
+     text-align: center;
+     width: 700px ;
+     margin-bottom: 2rem ;
+}
+
+img, svg {
+    vertical-align: middle;
+    padding-bottom: 12px;
+}
+
+h4{
+    font-weight: 500;
+    background: linear-gradient(282deg, #ceb3b3, #fff);
+    padding-top: 3rem  ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Happy Face Semi Bold, Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, sans-serif;
+    font-size: 4rem; 
+    height: 4.06rem;
+    letter-spacing: var(--desktop-headline-xxl-letter-spacing, -.01em);
+    line-height: 2rem ;
+    text-align: center;
+    width: 56.38rem;
+}
