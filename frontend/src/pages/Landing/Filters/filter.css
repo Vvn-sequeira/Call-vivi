@@ -1,0 +1,103 @@
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.renderContent {
+  max-width: 90rem;
+  padding: 34px;
+}
+.FilterRow {
+  width: 100%;
+}
+
+.FilterCol {
+  width: 700px;
+  height: 560px;
+}
+.FilterUl {
+  width: 90%;
+}
+
+@media (max-width: 1318px) and (min-width: 100px) {
+  .FilterRow {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 805px) and (min-width: 100px) {
+.FilterCol {
+  width: 700px;
+  height: auto;
+}
+
+.FilterRow {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.renderContent{
+    padding: 0;
+}
+}
+
+@media (max-width: 728px) and (min-width: 100px){
+    .FilterCol {
+  width: 600px;
+  height: auto;
+}
+
+.FilterRow {
+  margin: 0;
+  width: 100%;
+}
+}
+@media (max-width: 626px) and (min-width: 100px){
+    .FilterCol {
+  width: 500px;
+  height: auto;
+}
+
+.FilterRow {
+  margin: 0;
+  width: 100%;
+}
+#Text-col{
+     padding-left: 13px ;
+}
+}
+@media (max-width: 513px) and (min-width: 100px){
+    .FilterCol {
+  width : 100%;
+  height: auto;
+}
+
+.FilterRow {
+  margin: 0;
+  width: 100%;
+}
+#Lastbtn{
+     width: auto;
+}
+}
+@media  (min-width: 1319px){
+.FilterCol img {
+    width: 560px ;
+    justify-self: center;
+}
+}
+
+.filterPara{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+}
+.filterBar{
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

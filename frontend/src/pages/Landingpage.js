@@ -11,6 +11,7 @@ import Qutoes from '../pages/Landing/Quotes'
 import Swiperr from './Landing/Gallary/Swiperr';
 import ThreeCard from './Landing/ThreeCards/ThreeCard';
 import AfterThreeCard from './AfterThreeCard';
+import Filters from './Landing/Filters/Filters';
 import "./Landing.css"
 export default function Landingpage() {
   return (
@@ -25,8 +26,11 @@ export default function Landingpage() {
      <div className='threecard-section'>
       <ThreeCard></ThreeCard>
      </div>
-     <div>
+     <div className='afterThreeCards-section'>
       <AfterThreeCard></AfterThreeCard>
+     </div>
+     <div className='filter-section'>
+      <Filters></Filters>
      </div>
     </div>
   )
