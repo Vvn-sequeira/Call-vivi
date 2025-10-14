@@ -94,7 +94,8 @@
     background: linear-gradient(180deg, #00053d, #000);
     display: flex;
     flex-direction: column;
-    height: 55.38rem;
+    min-height: 75.38rem;
+    max-height: fit-content;
     overflow: hidden;
     padding-top: 7.5rem;
     position: relative;

@@ -1,60 +1,175 @@
+.TopText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Container-TopText {
+  width: 902px;
+  height: 409px;
+  color: white;
+}
+.TopText-heading {
+  font-size: 4rem;
+}
+.TopText h3 {
+  background: linear-gradient(91.35deg, #8d5df7, #6cb0ff 25%, #1722f6),
+    linear-gradient(270deg, #fff, #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Happy Face Semi Bold, Helvetica, Arial, Noto Sans JP,
+    Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, sans-serif;
+  font-size: var(--desktop-headline-xxl-font-size, 3.38rem);
+  height: 4.5rem;
+  letter-spacing: var(--desktop-headline-xxl-letter-spacing, -0.01em);
+  line-height: var(--desktop-headline-xxl-line-height, 112%);
+  text-align: center;
+  width: 56.38rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+.TopText-para {
+  text-align: center;
+  width: 700px;
+  margin-bottom: 2rem;
+}
 
-.TopText{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
+.TopText img,
+svg {
+  vertical-align: middle;
+  padding-bottom: 12px;
+}
+
+.TopText h4 {
+  font-weight: 500;
+  background: linear-gradient(282deg, #ceb3b3, #fff);
+  padding-top: 3rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Happy Face Semi Bold, Helvetica, Arial, Noto Sans JP,
+    Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, sans-serif;
+  font-size: 4rem;
+  height: 4.06rem;
+  letter-spacing: var(--desktop-headline-xxl-letter-spacing, -0.01em);
+  line-height: 2rem;
+  text-align: center;
+  width: 56.38rem;
+}
+
+.TopTextcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.AI-IMG-Cont img  {
+  width: 850px;
+  border-radius: 0.9334rem;
+  box-shadow: 0 0 0.076rem #1281f8, 0 0 0.151rem #1281f8, 0 0 0.53rem #1281f8,
+    0 0 1.5rem #1281f8bf, 0 0 4.23rem #1281f8;
+}
+
+.innerRowOfImgCont {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.innterRowCol {
+  width: 400px;
+}
+.AI-Text_cont {
+  margin-left: 1.9rem;
+}
+
+.Shiny-text-of-innerRow {
+  background: linear-gradient(
+      -50.28deg,
+      #8d5df7,
+      #6cb0ff 60.0000023842%,
+      #1722f6
+    ),
+    linear-gradient(0deg, #0b5cff, #00053d),
+    linear-gradient(270deg, #00053d, #00053d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Happy Face Semi Bold, Helvetica, Arial, Noto Sans JP,
+    Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, sans-serif;
+  letter-spacing: var(--desktop-headline-xxl-letter-spacing, -0.01em);
+  text-align: center;
+  font-size: 1.23rem ;
+   text-align: start;
+}
+
+.innterRowCol img{
+      width: 130px ;
+      margin-bottom: 1.3rem ;
+}
+
+.Last-text-of-AI{
+      text-align: center;
+      margin-top: 4rem ;
+      color: white;
+      font-size: 12px ;
+}
+
+@media (max-width : 1278px ) {
+ .AI-IMG-Cont {
+  width: 100%;
+}
+}
+@media (max-width : 750px ) {
+ .AI-IMG-Cont img  {
+  width: 500px;
 
 }
-.Container-TopText{
-     width: 902px ;
-     height: 369px ;
-     color: white ;
+ .AI-IMG-Cont   {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
-.TopText-heading{
-     font-size: 4rem  ;
+.innerRowOfImgCont{
+       display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-h3{
-   background: linear-gradient(91.35deg, #8d5df7, #6cb0ff 25%, #1722f6),  linear-gradient(270deg, #fff, #fff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Happy Face Semi Bold, Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, sans-serif;
-    font-size: var(--desktop-headline-xxl-font-size, 3.38rem);
-    height: 4.5rem;
-    letter-spacing: var(--desktop-headline-xxl-letter-spacing, -.01em);
-    line-height: var(--desktop-headline-xxl-line-height, 112%);
-    text-align: center;
-    width: 56.38rem;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
+.for-big-screen{
+     display: none;
+}
+.firstColOfInnerRow{
+      margin-top: 3rem ;
+}
 
+.TopText img {
+      width: 30px ;
+}
+.TopText h4{
+      font-size: 30px ;
+          height: 3.06rem;
+
+}
+.TopText h3{
+    height: 2.5rem;
+      font-size: 40px ;
 }
 .TopText-para{
-     text-align: center;
-     width: 700px ;
-     margin-bottom: 2rem ;
+      font-size: 13px ;
+      width: 500px ;
 }
-
-img, svg {
-    vertical-align: middle;
-    padding-bottom: 12px;
+.Container-TopText {
+    width: 902px;
+    height: 295px;
+    color: white;
 }
-
-h4{
-    font-weight: 500;
-    background: linear-gradient(282deg, #ceb3b3, #fff);
-    padding-top: 3rem  ;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Happy Face Semi Bold, Helvetica, Arial, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, Noto Sans, sans-serif;
-    font-size: 4rem; 
-    height: 4.06rem;
-    letter-spacing: var(--desktop-headline-xxl-letter-spacing, -.01em);
-    line-height: 2rem ;
-    text-align: center;
-    width: 56.38rem;
+.Last-text-of-AI{
+      display: none ;
+}
 }

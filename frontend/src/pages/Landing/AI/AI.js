@@ -5,8 +5,11 @@ import IMGnContent from './IMGnContent'
 export default function AI() {
   return (
     <div>
-         <div className=''>
+         <div className='TopTextcontainer'>
             <TopText></TopText>
+         </div>
+         <div>
+          <IMGnContent></IMGnContent>
          </div>
     </div>
   )
