@@ -172,4 +172,52 @@ svg {
 .Last-text-of-AI{
       display: none ;
 }
+.AI-IMG-Cont{
+  padding-top: 3rem ;
+}
+.innterRowCol{
+  font-size: 13px;
+}
+.innterRowCol h4{
+   font-size: 19px ;
+}
+.innterRowCol img{
+   width: 90px;
+   padding-top: 23px ;
+}
+
+.Shiny-text-of-innerRow{
+   font-size: 16px ;
+}
+.innterRowCol {
+  width: 350px;
+}
+}
+
+@media (max-width : 525px ){
+
+  .AI-IMG-Cont img  {
+  width: 370px;
+
+}
+
+.TopText h3{
+    height: 2.5rem;
+    font-size: 33px ;
+}
+
+.TopText-para{
+      font-size: 13px ;
+      width: 350px ;
+}
+.Container-TopText {
+    width: 902px;
+    height: 295px;
+    color: white;
+}
+
+.innerRowOfImgCont{
+  padding: 12px ;
+}
+
 }

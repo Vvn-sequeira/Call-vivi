@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.logo{
+    overflow: hidden;
+}
+
+.Logo-slider{
+}
+
+.logo-slider-img{
+    display: inline-flex;
+    animation: scroll 23s   infinite linear;
+}
+.logo-slider-img img{
+    width: 180px;
+    margin: 0 40px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading h2{
+    padding-top: 52px ;
+    font-size: 23px;
+    font-weight: 600;
+    color: #333;
+}

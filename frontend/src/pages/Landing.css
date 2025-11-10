@@ -99,4 +99,12 @@
     overflow: hidden;
     padding-top: 7.5rem;
     position: relative;
+   
+}
+
+@media (max-width : 525px ){
+   .AI-section{
+     padding-top: 4.5rem;
+      margin-top: 30px ;
+   }
 }
