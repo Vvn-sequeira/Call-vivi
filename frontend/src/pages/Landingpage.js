@@ -13,6 +13,7 @@ import AfterThreeCard from './AfterThreeCard';
 import Filters from './Landing/Filters/Filters';
 import Rating from './Landing/Rating/Rating';
 import AI from './Landing/AI/AI';
+import Quotes from './Landing/quotes/Quotes';
 import LogoScrolling from './Landing/Logo-scrolling/LogoScrolling';
 import "./Landing.css"
 export default function Landingpage() {
@@ -42,6 +43,9 @@ export default function Landingpage() {
      </div>
      <div className='rating-section'>
       <Rating></Rating>
+     </div>
+     <div className='Quotes-section'>
+       <Quotes></Quotes>
      </div>
     </div>
   )
