@@ -1,0 +1,73 @@
+
+.Phots img{
+    width: 150px; 
+    height: 425px ;
+    object-fit: cover;
+    margin: 8px ;
+    border-radius: 13px ;
+    z-index: 1;
+
+}
+.Phots{
+     position: relative;
+    
+}
+.gallary{
+     display: flex;
+     z-index: 1;
+}
+.selectedPhoto img{
+     z-index: 1;
+     display: block;
+     width: 98%;
+     margin-right: 12px ;
+     transition: transform 0.3s ease;
+     will-change: transform;
+    transition:  0.4s ease-in-out;
+}
+.selectedPhoto {
+  overflow: hidden; 
+  display: inline-block; 
+}
+
+.PhotsContainer{
+    z-index: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.selectedPhoto img:hover {
+     transition:  1.6s ease;
+}
+
+.image-overlay{
+    margin: 2rem ;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 100%;
+  color: white;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  padding: 20px;
+ transition: opacity 1.5s ease-out;
+
+}
+.image-overlay h1{
+     font-size: 32px ;
+}
+.image-overlay p{
+    width: 506px;
+    font-size: 14px;
+    margin-top: 11rem;
+
+}
+.hidden{
+    display: none;
+}
+

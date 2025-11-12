@@ -21,7 +21,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    padding: 4rem  ;
+    padding: 4rem 0 ;
+    padding-bottom: 2rem ;
 }
 .FirstQuotes_container{
     text-align: center;
