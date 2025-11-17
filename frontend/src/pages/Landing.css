@@ -108,3 +108,9 @@
       margin-top: 30px ;
    }
 }
+
+@media (max-width:970px) {
+     .Photos-section{
+      display: none;
+     }
+}

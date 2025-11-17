@@ -7,7 +7,7 @@ import Impact from '../pages/Landing/Impact'
 import Start from '../pages/Landing/Start'
 import Scroll from '../pages/Landing/Scroll'
 import Qutoes from '../pages/Landing/Quotes'
-import Swiperr from './Landing/Gallary/Swiperr';
+import Swiper from './Landing/Gallary/Swiper';
 import ThreeCard from './Landing/ThreeCards/ThreeCard';
 import AfterThreeCard from './AfterThreeCard';
 import Filters from './Landing/Filters/Filters';
@@ -25,7 +25,7 @@ export default function Landingpage() {
        <Hero></Hero>
     </div>
      <div className='Swiper-section'>
-       <Swiperr></Swiperr>
+       <Swiper></Swiper>
      </div>
      <div className='threecard-section'>
       <ThreeCard></ThreeCard>
@@ -51,6 +51,7 @@ export default function Landingpage() {
      <div className='Photos-section'>
       <Photos></Photos>
      </div>
+  
     </div>
   )
 }
